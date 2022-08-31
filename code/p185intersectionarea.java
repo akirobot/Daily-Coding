@@ -1,8 +1,10 @@
 /*
- * Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0;
+ *  INCOMPLETE
+ * 
+ *  Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0;
  */
 
- import java.awt.Point;
+import java.awt.Point;
 
 public class p185intersectionarea {
     public static int intersect(Point r1tL, Point r1D, Point r2tL, Point r2D){
