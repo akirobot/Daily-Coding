@@ -7,7 +7,7 @@ public class p390onethousandmissingintegers {
         for (int i = 0; i < a.size(); i++){
             int temp = 1;
             if (a.get(i) != temp){
-                System.out.println(temp);
+                System.out.print(temp);
             }
             temp++;
         }

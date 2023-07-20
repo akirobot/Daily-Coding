@@ -1,3 +1,4 @@
+package complete;
 /*
  * Given a real number n, find the square root of n.
  * 
@@ -11,6 +12,6 @@ public class p467squareroot {
         return Math.sqrt(number);
     }
     public static void main (String[] args){
-
+        System.out.println(squareroot(7));
     }
 }

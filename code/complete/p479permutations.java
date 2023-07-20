@@ -1,5 +1,8 @@
+package complete;
 /*
  * Given a number in the form of a list of digits, return all possible permutations.
+ * 
+ * Fairly easy, just generate each combination of numbers
  */
 
 import java.util.*;

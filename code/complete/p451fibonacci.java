@@ -1,3 +1,4 @@
+package complete;
 /*
  * Implement the function fib(n), which returns the nth number in the Fibonacci sequence, using only O(1) space.
  * 
@@ -22,6 +23,6 @@ public class p451fibonacci {
         return sum;
     }
     public static void main (String[] args){
-        System.out.println(fib(6));
+        System.out.println(fib(9));
     }
 }

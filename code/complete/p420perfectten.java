@@ -1,3 +1,4 @@
+package complete;
 /*
  * Given a positive integer n, return the n-th perfect number. A number is "perfect" if its digits summed together equal 10.
  * 
@@ -5,6 +6,7 @@
  *  Every 9 digits is a perfect 10.
  *  The minimum is 19, since you can't have two number equal 10 with a single digit.
  *  The maximum is effectively infinite, since you could have any number of zeroes between the first digit and the last, which would add to 10.
+ *  There is a limit with the implementation though, since eventually the generated number would exceed the integer limit. You could extend this infinitely by creating a way to insert zeroes.
  */
 
 import java.util.*;
@@ -36,7 +38,7 @@ public class p420perfectten {
     }
     public static void main (String[] args){
         long start = java.lang.System.currentTimeMillis();
-        int foundint = find10s(4);
+        int foundint = find10s(70000);
         long end = java.lang.System.currentTimeMillis();
         System.out.println("Got " +foundint +" in " +(end-start) +"ms");
     }
