@@ -1,3 +1,4 @@
+package complete;
 //Given N numbers, find the greatest common denominator between them.
 
 public class p184gcd {
@@ -28,7 +29,7 @@ public class p184gcd {
         return result;
     }
     public static void main (String[] args){
-        int arr[] = {42, 56, 14};
+        int arr[] = {42, 56, 14, 21};
         System.out.println(findGCD(arr));
     }
 }

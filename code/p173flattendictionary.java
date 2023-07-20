@@ -1,3 +1,4 @@
+package complete;
 /*
  * Write a function to flatten a nested dictionary. Namespace the keys with a period.
  */

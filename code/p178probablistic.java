@@ -1,3 +1,4 @@
+package complete;
 /*
  * Roll a dice repeatedly. For the first game, stop when you get a five followed by a six. The number of rolls is the dollars you pay. For the second, stop when you get two fives. Which one is preferable to lose the least?
  */

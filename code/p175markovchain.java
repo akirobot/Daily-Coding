@@ -1,3 +1,4 @@
+package complete;
 /*
  * Given a starting state 'start', a list of transition probablities for a Markov chain, and a number of steps 'num_steps', run the Markov chain starting from 'start' for 'num_steps' and compute the number of times each state is visited
  */
@@ -63,6 +64,6 @@ public class p175markovchain {
         System.out.println("Total: " +(aCount + bCount + cCount));
     }
     public static void main(String[] args){
-        mkvChain("a", 5000);
+        mkvChain("a", 10000);
     }
 }
