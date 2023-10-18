@@ -34,6 +34,6 @@ package complete;
         return (quarter + dime + nickel + penny);
     }
     public static void main (String[] args){
-        System.out.println(coins(250));
+        System.out.println(coins(49) +" coins total");
     }
 }

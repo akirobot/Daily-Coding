@@ -8,21 +8,22 @@ package complete;
 import java.util.*;
 
 public class p451fibonacci {
-    public static int fib(int n){
-        int last = 1;
-        int next = 1;
-        int sum = 0;
+    public static double fib(double n){
+        double last = 1;
+        double next = 1;
+        double sum = 0;
         if (n == 1){
             return 1;
         }
-        for (int i = 0; i < n; i++){
+        for (double i = 0; i < n; i++){
             last = next;
             next = sum;
             sum = last + next;
+            System.out.print(sum +" ");
         }
         return sum;
     }
     public static void main (String[] args){
-        System.out.println(fib(9));
+        System.out.println("[" +fib(20) +"]");
     }
 }
