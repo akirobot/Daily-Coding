@@ -1,3 +1,4 @@
+package complete;
 /*
  * Given an N by M matrix of numbers, print out the matrix in a clockwise spiral.
  */
@@ -25,7 +26,7 @@ public class p525spiralmatrix {
         int xStart = 0;
         int yStart = 0;
         //I feel like there's a bug here somewhere, but I can't find it
-        //A really un-elegant solution using try-catch
+        //A really inelegant solution using try-catch
         try{
             do{
                 for (int i = xStart; i <= columns; i++){
