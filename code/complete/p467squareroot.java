@@ -5,8 +5,6 @@ package complete;
  * This is easy in java since it has a built in square root function.
  */
 
-import java.util.*;
-
 public class p467squareroot {
     public static double squareroot(double number){
         return Math.sqrt(number);

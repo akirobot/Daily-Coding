@@ -9,8 +9,6 @@ package complete;
  *  There is a limit with the implementation though, since eventually the generated number would exceed the integer limit. You could extend this infinitely by creating a way to insert zeroes.
  */
 
-import java.util.*;
-
 public class p420perfectten {
     public static int find10s(int n){
         int perfectten = 19;
