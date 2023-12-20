@@ -5,7 +5,7 @@ package complete;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public class p178probablistic {
+public class p178probabilistic {
     //Generic method for rolling, allows selection of two numbers in sequence, and different dices
     public static int numThenNum(int first, int second, int min, int max){
         //Initialize total rolls
