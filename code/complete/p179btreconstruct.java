@@ -56,12 +56,13 @@ class BinaryTree{
         //Will need to create a method to display binary tree, but beyond the scope of this problem
         return bt;
     }
+    
 }
 
-public class p179reconstruct {
+public class p179btreconstruct {
     public static void main(String[] args){
         int[] bT = {2, 4, 3, 8, 7, 5};
-        System.out.println(BinaryTree.createBinaryTree(bT));
+        BinaryTree.createBinaryTree(bT);
     }
 }
 
