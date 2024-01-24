@@ -15,6 +15,7 @@ Coding Examples
  - [Minimum Coins](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p474minimumcoins.java)
  - [Multiplication Table Occurrence](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p557twodimensionmulttable.java)
  - [Monte Carlo Method](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p014montecarlomethod.java)
+ - [Non-Decreasing Array](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p556nondecreasingarray.java)
  - [Perfect Ten](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p420perfectten.java)
  - [Pivot List](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p177pivotlist.java)
  - [Probabilistic Dice](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p178probabilistic.java)
