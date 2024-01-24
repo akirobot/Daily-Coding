@@ -8,7 +8,7 @@ import java.util.*;
 
 public class p004missinginteger {
     public static int missingInteger(){
-
+        return 0;
     }
     public static void main(String[] args){
         List<Integer> test1 = new ArrayList<Integer>();

@@ -13,6 +13,7 @@ Coding Examples
  - [Markov Chain](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p175markovchain.java)
  - [Minimally Connected Graph](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p182minimallyconnected.java)
  - [Minimum Coins](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p474minimumcoins.java)
+ - [Multiplication Table Occurrence](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p557twodimensionmulttable.java)
  - [Monte Carlo Method](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p014montecarlomethod.java)
  - [Perfect Ten](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p420perfectten.java)
  - [Pivot List](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p177pivotlist.java)
@@ -20,4 +21,3 @@ Coding Examples
  - [Spiral Matrix](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p525spiralmatrix.java)
  - [Square Root](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p467squareroot.java)
  - [String Mapping](https://github.com/akirobot/Daily-Coding/blob/main/code/complete/p176stringmapping.java)
-
