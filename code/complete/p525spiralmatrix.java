@@ -25,8 +25,8 @@ public class p525spiralmatrix {
         int rows = matrix[0].length - 1;
         int xStart = 0;
         int yStart = 0;
-        //I feel like there's a bug here somewhere, but I can't find it
-        //A really inelegant solution using try-catch
+        //There is a bug if x and y are not the same value
+        //This feels like an inelegant solution using try-catch
         try{
             do{
                 for (int i = xStart; i <= columns; i++){
@@ -48,7 +48,7 @@ public class p525spiralmatrix {
             } while (xStart <= columns && yStart <= columns); 
         }
         catch (IndexOutOfBoundsException ex){
-
+            System.out.println("dumb");
         }
     }
     public static void main (String[] args){
