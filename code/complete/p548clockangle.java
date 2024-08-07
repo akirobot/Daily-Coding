@@ -20,21 +20,10 @@ public class p548clockangle {
         System.out.println("Counter-clockwise angle: " +angle);
     }
     public static boolean formatCheck (String time, int format){
-        String format12 = "([0-1][0-9]):([0-5][0-9])";
-        String format24 = "([0-2][0-9]):([0-5][0-9])";
-        switch(format) {
-            case 12:
-                Pattern pattern12 = Pattern.compile(format12);
-                Matcher matcher12 = pattern12.matcher(time);
-                return matcher12.find();
-            case 24:
-                Pattern pattern24 = Pattern.compile(format24);
-                Matcher matcher24 = pattern24.matcher(time);
-                return matcher24.find();
-            default:
-                System.out.println("Error");
-                return false;
-        }
+        String timeFormat = "(\\d\\d):(\\d\\d)";
+        Pattern pattern = Pattern.compile(timeFormat);
+        Matcher match = pattern.matcher(time);
+        return match.find();
     }
     public static void main (String[] args){
         Scanner in = new Scanner(System.in);

@@ -32,7 +32,7 @@ public class p178probabilistic {
     }
     public static void averageOfNThenN(){
         //Set count for total number of games, larger is better
-        int count = 10000;
+        int count = 100000;
         //Initialize total for fiveSix to create average
         int fiveSixAvg = 0;
         //Play 'count' games
